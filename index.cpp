@@ -79,7 +79,7 @@ int main() {
     create_soldier(soldiers[6], "Soldier7", 71, 11, 5);
     create_soldier(soldiers[7], "Soldier8", 23, 41, 5);
     create_soldier(soldiers[8], "Soldier9", 64, 8, 5);
-    create_soldier(soldiers[9], "Soldier10", 63, 19, 5);
+    create_soldier(soldiers[9], "soldier10", 63, 19, 5);
 
     int i = 0;
     while (true) {
