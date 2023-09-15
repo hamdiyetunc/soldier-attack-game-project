@@ -70,16 +70,16 @@ Soldier find_alive(Soldier *soldiers, int size) {
 int main() {
     Soldier soldiers[10];
 
-    create_soldier(soldiers[0], "Muhittin", 23, 1, 5);
-    create_soldier(soldiers[1], "Abuzittin", 43, 12, 5);
-    create_soldier(soldiers[2], "Abdulhey", 57, 19, 5);
-    create_soldier(soldiers[3], "Memati", 65, 4, 5);
-    create_soldier(soldiers[4], "Polat Alemdar", 110, 1, 5);
-    create_soldier(soldiers[5], "Erhan", 32, 16, 5);
-    create_soldier(soldiers[6], "Bulut", 71, 11, 5);
-    create_soldier(soldiers[7], "Kazim", 23, 41, 5);
-    create_soldier(soldiers[8], "Iskender", 64, 8, 5);
-    create_soldier(soldiers[9], "Cakir", 63, 19, 5);
+    create_soldier(soldiers[0], "Soldier 1", 23, 1, 5);
+    create_soldier(soldiers[1], "Soldier 2", 43, 12, 5);
+    create_soldier(soldiers[2], "Soldier 3", 57, 19, 5);
+    create_soldier(soldiers[3], "Soldier 4", 65, 4, 5);
+    create_soldier(soldiers[4], "Soldier 5", 110, 1, 5);
+    create_soldier(soldiers[5], "Soldier 6", 32, 16, 5);
+    create_soldier(soldiers[6], "Soldier 7", 71, 11, 5);
+    create_soldier(soldiers[7], "Soldier 8", 23, 41, 5);
+    create_soldier(soldiers[8], "Soldier 9", 64, 8, 5);
+    create_soldier(soldiers[9], "Soldier 10", 63, 19, 5);
 
     int i = 0;
     while (true) {
